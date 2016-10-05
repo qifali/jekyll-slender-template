@@ -6,14 +6,20 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: My Portfolio
-email: your-email@domain.com
+title: Zach's blog
+email: qifa178@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Jannik Richter, jannik811@gmail.com
-baseurl: "/jekyll-slender-template" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  不相信自己的人, 连努力的价值都没有.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://liqifa.com" # the base hostname & protocol for your site
+twitter_username: qifali
+github_username:  qifali
+gmail_address: qifa178@gmail.com
+certificate_weblogic: Oracle WebLogic Server 12c Certified Implementation Specialist
+certificate_WCC: Oracle WebCenter Content 11g Certified Implementation Specialist
+certificate_ADF: Oracle Application Development Framework 11g Certified Implementation Specialist
 
 # Build settings
 markdown: kramdown
+theme: minima
+
