@@ -6,6 +6,7 @@ var techSkills = echarts.init(document.getElementById('techSkills'));
 
 option = {
     title: {
+        show: false,
         text: "Tech Skills",
         left: 'center',
         top: 20,
@@ -13,6 +14,7 @@ option = {
             color: '#ccc'
         }
     },
+    backgroundColor: "#092d3f",
     tooltip: {
         trigger: 'item',
         formatter: "{a} <br/>{b}: {c} ({d}%)"

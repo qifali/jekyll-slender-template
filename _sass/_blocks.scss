@@ -4,13 +4,16 @@
 
 
 .block{    
-    overflow: hidden; 
-    min-height: $height-unit + $block-padding * 2; 
-    
+    overflow: hidden;
+    @media (min-width: $content-width-min) {
+        min-height: $height-unit + $block-padding * 2;
+    }
+
     .block-body{
         margin: $block-padding;
         //min-height: $height-unit;
         position: relative;
         height: 100%;
     }
+
 }
